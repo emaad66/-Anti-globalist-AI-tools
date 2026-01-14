@@ -1,0 +1,15 @@
+---
+
+#### **2. `tools/shadowban-bypass/`**
+**`bypass.py`** (example):
+```python
+import tweepy
+import time
+
+def detect_shadowban(username, api_key, api_secret, access_token, access_secret):
+    """Detect if a Twitter account is shadowbanned."""
+    auth = tweepy.OAuthHandler(api_key, api_secret)
+    auth.set_access_token(access_token, access_secret)
+    api = tweepy.API(auth)
+
+    tweets = api.user_timeline(screen_name=username, count=10,
