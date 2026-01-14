@@ -1,0 +1,10 @@
+# Censorship Detector 🔍
+
+Detects **AI-driven censorship** in Google search results.
+
+## Usage
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+Run the detector
+python main.py
