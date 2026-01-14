@@ -1,4 +1,4 @@
-# Anti-Globalist AI Tools 🚀
+# Anti-Globalist AI Tools
 
 **Open-source tools to detect, bypass, and expose globalist AI agendas** (censorship, surveillance, CBDCs, and bias).
 
